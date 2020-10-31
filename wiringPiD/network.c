@@ -73,7 +73,7 @@ static union
 char *getClientIP (void)
 {
   char buf [INET6_ADDRSTRLEN] ;
-  static char ipAddress [1024] ;
+  static char ipAddress [1028] ;
 
   if (clientSockAddr.sin.sin_family == AF_INET)	// IPv4
   {
